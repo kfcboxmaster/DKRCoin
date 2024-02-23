@@ -1,9 +1,14 @@
+/* App.css */
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.container-md{
+  font-size: 15px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 800px;
     padding: 20px;
-    width: 100%; 
   }
   
   /* Define styles for the text */
@@ -13,13 +18,14 @@
   
   .lead {
     font-size: 40px;
-    text-align: end;
   }
   
   /* Define styles for the connected account */
   .connected-account {
-    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-size: 0.875rem;
   }
   .mes{
-    color: black;
+      color: white;
   }
